@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nav Bar */
+nav{
+    background-color: #1f2833;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+}
+
+img{
+    height: 50px;
+    width: 120px;
+}
+
+nav ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    background-color: #1f2833;
+    padding: 25px 35px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+ul li:hover{
+    background-color: aquamarine;
+    transition: all .4s ease; 
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.search{
+    padding: 8px;
+    border-radius: 70px;
+}
+
+ /* First section */
+
+.first-section{
+    margin-top: 50px 0;
+    display: flex;
+    padding: 40px 140px;
+}
+
+.primery-text{
+    font-size: 50px;
+}
+
+.primery-text span{
+    color: #e91717;
+}
+
+.para{
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 16px;
+    margin: 35px 0;
+}
+
+.para::first-letter{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn{
+    background: aquamarine;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background-color: red;
+    color: white;
+    transition: all .4s ease-in-out;
+}
+
+.mypicture{
+    height: 30rem;
+    width: 30rem;
+    float: right;
+}
+
+.half-width{
+    width: 50%;
+}
+ 
+/* Second section */
+
+.second-section{
+    display: flex;
+    padding: 40px 140px;
+}
+
+.primery-text-02{
+    font-size: 50px;
+}
+
+.para-02{
+    text-align: justify;
+    text-indent: 40px;
+    margin: 35px 0;
+}
+
+.para-02::first-letter{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn-02{
+    background: aquamarine;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn-02:hover{
+    background-color: red;
+    color: white;
+    transition: all .4s ease-in-out;
+}
+
+.mypicture-02{
+    height: 30rem;
+    width: 30rem;
+    float: left; 
+}
+
+.half-width-02{
+    width: 50%;
+}
+
+/* Third section */
+
+.third-section{
+    display: flex;
+    gap: 54px;
+    background: url(assate/exp-bg.png) no-repeat left bottom;
+}
+.last-width{
+    width: 40%;
+    margin: 0 50px;
+    gap: 50px;
+    text-align: justify;
+    box-shadow: 1px 3px 10px;
+    padding: 0 20px;
+    border-left: 10px solid;
+    border-image: linear-gradient(to top, #8ffae8, coral );
+    border-image-slice: 1;
+}
+
+.last-width h1{
+    font-size: 45px;
+}
+.last-width h3{
+    color: rgb(6, 209, 199);
+    margin: 10px 0;
+    
+}
+
+footer{
+    background-color: #8ffae8;
+    margin: 50px 0;
+    padding: 10px;
+    text-align: center;
+}
